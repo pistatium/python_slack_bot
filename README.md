@@ -38,7 +38,7 @@ https://slack.com/services/new/outgoing-webhook
 
 ## LICENSE
 ```
-Copyright (C) 2014 Shinya Sakemoto
+Copyright (C) 2014 kimihiro_n
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
