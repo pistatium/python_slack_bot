@@ -28,13 +28,30 @@ Run this project locally from the command line:
    dev_appserver.py .
    ```
 
+## deploy slack_bot
 
+1. edit app.yaml
+    * modify ```application:```
+2. deploy to AppEngine
+    * ```appcfg.py update .```
+3. Setting Slack Integrations
+    * Add Integrations Outgoing-web-hook
+        * https://slack.com/services/new/outgoing-webhook
+    * ![integrations setting](https://raw.githubusercontent.com/pistatium/python_slack_bot/master/static/integration_settings.png)
+4. Check
+    * On Slack: ```daniel yo```
+    * ![daniel sample](https://raw.githubusercontent.com/pistatium/python_slack_bot/master/static/daniel_sample.png)
 
-## deploy
+## Customize
+if you want to add bot functions, you should write ```src/bot/daniel.py``` or create new bot class.
+
+```(BaseBot).say()``` detects method matching conditions automatically.
 
 
 ## documents
+https://github.com/GoogleCloudPlatform/appengine-python-flask-skeleton
 https://slack.com/services/new/outgoing-webhook
+https://appengine.google.com/
 
 
 ## LICENSE
