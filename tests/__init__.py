@@ -4,7 +4,7 @@ from __future__ import absolute_import, division, print_function
 
 import logging 
 
-import main
+from src import main
 
 
 logging.basicConfig(level=logging.DEBUG)

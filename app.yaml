@@ -1,4 +1,4 @@
-application: python_slack_bot
+application: python-slack-bot
 
 version: 1
 runtime: python27
@@ -7,8 +7,8 @@ threadsafe: yes
 
 handlers:
 
-- url: .*  # This regex directs all routes to main.app
-  script: main.app
+- url: .*  
+  script: src.main.app
 
 # Third party libraries that are included in the App Engine SDK must be listed
 # here if you want to use them.  See

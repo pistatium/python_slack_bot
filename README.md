@@ -24,10 +24,11 @@ Run this project locally from the command line:
 
    ```
    # Require google appengine SDK
+   # https://developers.google.com/appengine/downloads?hl=ja
    dev_appserver.py .
    ```
 
-Visit the application [http://localhost:8080](http://localhost:8080)
+
 
 ## deploy
 
